@@ -1,0 +1,17 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+    Scanner sc=new Scanner(System.in); 
+        int p=sc.nextInt();
+        if(p>=100 && p<=200) { 
+            int r=p/4; System.out.printf("%d\n%d\n%d\n%d\n",r,r,r,r+p%4); 
+        } else {
+            System.out.printf("INVALID INPUT"); 
+        }
+    
+    }
+}
