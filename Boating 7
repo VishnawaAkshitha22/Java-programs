@@ -1,0 +1,24 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+public static void main(String[] args) {
+Scanner sc=new Scanner(System.in);
+int m=sc.nextInt();
+ int a=sc.nextInt();
+int c=sc.nextInt();
+int w = a * 75 + c * 30;
+if (w <= m) 
+ { 
+ System.out.println("Boat is stable"); 
+}
+ else 
+ { 
+ System.out.println("Boat will drown"); 
+}
+}
+}
